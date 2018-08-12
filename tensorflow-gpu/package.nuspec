@@ -12,5 +12,14 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Allows Native C++ Applications to use precompiled version of tensorflow on Windows</description>
     <tags>tensorflow,gpu,machine learning</tags>
+	<dependencies>
+		<dependency id="nvidia-cuda-90-cudart" 	version="9.0" 	 />
+		<dependency id="nvidia-cuda-90-blas" 	version="9.0" 	 />
+		<dependency id="nvidia-cuda-90-fft" 		version="9.0" 	 />
+		<dependency id="nvidia-cuda-90-rand" 		version="9.0"	 />
+		<dependency id="nvidia-cuda-90-sparse" 	version="9.0"	 />
+		<dependency id="nvidia-cuda-90-solver" 	version="9.0" 	 />
+		<dependency id="nvidia-cuda-90-cudnn-7" version="7.2.1" />
+	</dependencies>
   </metadata>
 </package>

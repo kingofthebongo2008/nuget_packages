@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>nvidia-cuda-solver</id>
+    <id>nvidia-cuda-90-solver</id>
     <version>9.0</version>
     <title>nvidia cuda 9 solver x64</title>
     <authors>Stefan Dyulgerov</authors>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>nvidia-cuda-dnn-cuda-9</id>
+    <id>nvidia-cuda-90-cudnn-7</id>
     <version>7.2.1</version>
     <title>nvidia cuda dnn 7 for cuda 9.0 x64</title>
     <authors>Stefan Dyulgerov</authors>

@@ -82,10 +82,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/13/2016 23:06:14</publishTime>
     </File>
     <File Include="bin/nuget-web-server.dll">
-      <publishTime>08/12/2018 17:57:15</publishTime>
+      <publishTime>08/12/2018 22:33:08</publishTime>
     </File>
     <File Include="bin/nuget-web-server.pdb">
-      <publishTime>08/12/2018 17:57:15</publishTime>
+      <publishTime>08/12/2018 22:33:08</publishTime>
     </File>
     <File Include="bin/NuGet.Core.dll">
       <publishTime>09/07/2016 11:09:14</publishTime>
@@ -99,8 +99,50 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/NuGet.Server.V2.dll">
       <publishTime>02/26/2018 21:54:00</publishTime>
     </File>
+    <File Include="bin/Packages/nvidia-cuda-90-blas.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:41:10</publishTime>
+    </File>
+    <File Include="bin/Packages/nvidia-cuda-90-cudart.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:31:38</publishTime>
+    </File>
+    <File Include="bin/Packages/nvidia-cuda-90-cudnn-7.7.2.1.nupkg">
+      <publishTime>08/12/2018 22:31:52</publishTime>
+    </File>
+    <File Include="bin/Packages/nvidia-cuda-90-fft.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:32:00</publishTime>
+    </File>
+    <File Include="bin/Packages/nvidia-cuda-90-rand.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:32:04</publishTime>
+    </File>
+    <File Include="bin/Packages/nvidia-cuda-90-solver.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:32:09</publishTime>
+    </File>
+    <File Include="bin/Packages/nvidia-cuda-90-sparse.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:32:13</publishTime>
+    </File>
+    <File Include="bin/Packages/nvidia-cuda-blas.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:16:35</publishTime>
+    </File>
+    <File Include="bin/Packages/nvidia-cuda-dnn-cuda-9.7.2.1.nupkg">
+      <publishTime>08/12/2018 22:16:51</publishTime>
+    </File>
+    <File Include="bin/Packages/nvidia-cuda-fft.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:16:59</publishTime>
+    </File>
+    <File Include="bin/Packages/nvidia-cuda-rand.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:17:03</publishTime>
+    </File>
+    <File Include="bin/Packages/nvidia-cuda-runtime.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:16:37</publishTime>
+    </File>
+    <File Include="bin/Packages/nvidia-cuda-solver.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:17:08</publishTime>
+    </File>
+    <File Include="bin/Packages/nvidia-cuda-sparse.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:17:12</publishTime>
+    </File>
     <File Include="bin/Packages/tensorflow-gpu.1.10.0.nupkg">
-      <publishTime>08/12/2018 17:35:08</publishTime>
+      <publishTime>08/12/2018 22:45:01</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>12/13/2017 21:09:38</publishTime>
@@ -297,14 +339,56 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="favicon.ico">
       <publishTime>08/12/2018 16:58:10</publishTime>
     </File>
+    <File Include="Packages/nvidia-cuda-90-blas.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:41:10</publishTime>
+    </File>
+    <File Include="Packages/nvidia-cuda-90-cudart.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:31:38</publishTime>
+    </File>
+    <File Include="Packages/nvidia-cuda-90-cudnn-7.7.2.1.nupkg">
+      <publishTime>08/12/2018 22:31:52</publishTime>
+    </File>
+    <File Include="Packages/nvidia-cuda-90-fft.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:32:00</publishTime>
+    </File>
+    <File Include="Packages/nvidia-cuda-90-rand.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:32:04</publishTime>
+    </File>
+    <File Include="Packages/nvidia-cuda-90-solver.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:32:09</publishTime>
+    </File>
+    <File Include="Packages/nvidia-cuda-90-sparse.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:32:13</publishTime>
+    </File>
+    <File Include="Packages/nvidia-cuda-blas.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:16:35</publishTime>
+    </File>
+    <File Include="Packages/nvidia-cuda-dnn-cuda-9.7.2.1.nupkg">
+      <publishTime>08/12/2018 22:16:51</publishTime>
+    </File>
+    <File Include="Packages/nvidia-cuda-fft.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:16:59</publishTime>
+    </File>
+    <File Include="Packages/nvidia-cuda-rand.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:17:03</publishTime>
+    </File>
+    <File Include="Packages/nvidia-cuda-runtime.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:16:37</publishTime>
+    </File>
+    <File Include="Packages/nvidia-cuda-solver.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:17:08</publishTime>
+    </File>
+    <File Include="Packages/nvidia-cuda-sparse.9.0.0.nupkg">
+      <publishTime>08/12/2018 22:17:12</publishTime>
+    </File>
     <File Include="Packages/Readme.txt">
       <publishTime>08/12/2018 16:58:10</publishTime>
     </File>
     <File Include="Packages/tensorflow-gpu.1.10.0.nupkg">
-      <publishTime>08/12/2018 17:35:08</publishTime>
+      <publishTime>08/12/2018 22:45:01</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>08/12/2018 17:57:15</publishTime>
+      <publishTime>08/12/2018 22:17:59</publishTime>
     </File>
   </ItemGroup>
 </Project>
