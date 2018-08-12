@@ -3,4 +3,5 @@ packages/*.*
 *.csproj.user
 nuget-web-server/bin
 nuget-web-server/obj
+nuget-web-server/Packages
 
