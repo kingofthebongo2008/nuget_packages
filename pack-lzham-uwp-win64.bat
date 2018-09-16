@@ -1,1 +1,1 @@
-nuget.exe pack lzham-uwp-x64/package.nuspec
+nuget.exe pack lzham-uwp-win64/package.nuspec

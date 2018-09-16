@@ -1,1 +1,1 @@
-nuget.exe pack lzham-x64/package.nuspec
+nuget.exe pack lzham-win64/package.nuspec
