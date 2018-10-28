@@ -82,10 +82,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/13/2016 23:06:14</publishTime>
     </File>
     <File Include="bin/nuget-web-server.dll">
-      <publishTime>08/12/2018 22:33:08</publishTime>
+      <publishTime>09/16/2018 19:09:20</publishTime>
     </File>
     <File Include="bin/nuget-web-server.pdb">
-      <publishTime>08/12/2018 22:33:08</publishTime>
+      <publishTime>09/16/2018 19:09:20</publishTime>
     </File>
     <File Include="bin/NuGet.Core.dll">
       <publishTime>09/07/2016 11:09:14</publishTime>
@@ -98,6 +98,18 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="bin/NuGet.Server.V2.dll">
       <publishTime>02/26/2018 21:54:00</publishTime>
+    </File>
+    <File Include="bin/Packages/amd-compressonator-2-3-0.2.3.0.nupkg">
+      <publishTime>09/09/2018 17:52:37</publishTime>
+    </File>
+    <File Include="bin/Packages/fbxsdk-2018-1-1-dll.2018.1.1.nupkg">
+      <publishTime>09/16/2018 18:58:22</publishTime>
+    </File>
+    <File Include="bin/Packages/lzham-uwp-win64.1.0.0.nupkg">
+      <publishTime>09/09/2018 17:52:43</publishTime>
+    </File>
+    <File Include="bin/Packages/lzham-win64.1.0.0.nupkg">
+      <publishTime>09/09/2018 17:52:44</publishTime>
     </File>
     <File Include="bin/Packages/nvidia-cuda-90-blas.9.0.0.nupkg">
       <publishTime>08/12/2018 22:41:10</publishTime>
@@ -339,6 +351,18 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="favicon.ico">
       <publishTime>08/12/2018 16:58:10</publishTime>
     </File>
+    <File Include="Packages/amd-compressonator-2-3-0.2.3.0.nupkg">
+      <publishTime>09/09/2018 17:52:37</publishTime>
+    </File>
+    <File Include="Packages/fbxsdk-2018-1-1-dll.2018.1.1.nupkg">
+      <publishTime>09/16/2018 18:58:22</publishTime>
+    </File>
+    <File Include="Packages/lzham-uwp-win64.1.0.0.nupkg">
+      <publishTime>09/09/2018 17:52:43</publishTime>
+    </File>
+    <File Include="Packages/lzham-win64.1.0.0.nupkg">
+      <publishTime>09/09/2018 17:52:44</publishTime>
+    </File>
     <File Include="Packages/nvidia-cuda-90-blas.9.0.0.nupkg">
       <publishTime>08/12/2018 22:41:10</publishTime>
     </File>
@@ -388,7 +412,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/12/2018 22:45:01</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>08/12/2018 22:17:59</publishTime>
+      <publishTime>09/16/2018 19:09:32</publishTime>
     </File>
   </ItemGroup>
 </Project>
