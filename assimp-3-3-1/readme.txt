@@ -1,0 +1,2 @@
+assimp as a dll
+
