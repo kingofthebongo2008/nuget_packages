@@ -170,6 +170,7 @@
     <Content Include="Packages\assimp-3-3-1-dll.3.3.1.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Packages\tensorflow-lite.1.11.0.nupkg" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

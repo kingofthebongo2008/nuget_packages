@@ -82,10 +82,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/13/2016 23:06:14</publishTime>
     </File>
     <File Include="bin/nuget-web-server.dll">
-      <publishTime>09/16/2018 19:09:20</publishTime>
+      <publishTime>10/28/2018 21:29:55</publishTime>
     </File>
     <File Include="bin/nuget-web-server.pdb">
-      <publishTime>09/16/2018 19:09:20</publishTime>
+      <publishTime>10/28/2018 21:29:55</publishTime>
     </File>
     <File Include="bin/NuGet.Core.dll">
       <publishTime>09/07/2016 11:09:14</publishTime>
@@ -101,6 +101,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="bin/Packages/amd-compressonator-2-3-0.2.3.0.nupkg">
       <publishTime>09/09/2018 17:52:37</publishTime>
+    </File>
+    <File Include="bin/Packages/assimp-3-3-1-dll.3.3.1.nupkg">
+      <publishTime>09/16/2018 20:28:33</publishTime>
     </File>
     <File Include="bin/Packages/fbxsdk-2018-1-1-dll.2018.1.1.nupkg">
       <publishTime>09/16/2018 18:58:22</publishTime>
@@ -354,6 +357,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Packages/amd-compressonator-2-3-0.2.3.0.nupkg">
       <publishTime>09/09/2018 17:52:37</publishTime>
     </File>
+    <File Include="Packages/assimp-3-3-1-dll.3.3.1.nupkg">
+      <publishTime>09/16/2018 20:28:33</publishTime>
+    </File>
     <File Include="Packages/fbxsdk-2018-1-1-dll.2018.1.1.nupkg">
       <publishTime>09/16/2018 18:58:22</publishTime>
     </File>
@@ -411,8 +417,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Packages/tensorflow-gpu.1.10.0.nupkg">
       <publishTime>08/12/2018 22:45:01</publishTime>
     </File>
+    <File Include="Packages/tensorflow-lite.1.11.0.nupkg">
+      <publishTime>10/28/2018 21:17:26</publishTime>
+    </File>
     <File Include="Web.config">
-      <publishTime>09/16/2018 19:09:32</publishTime>
+      <publishTime>10/28/2018 21:30:00</publishTime>
     </File>
   </ItemGroup>
 </Project>
