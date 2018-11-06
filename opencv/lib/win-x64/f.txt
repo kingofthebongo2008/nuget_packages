@@ -1,0 +1,20 @@
+opencv_calib3d400.lib
+opencv_core400.lib
+opencv_dnn400.lib
+opencv_features2d400.lib
+opencv_flann400.lib
+opencv_gapi400.lib
+opencv_highgui400.lib
+opencv_imgcodecs400.lib
+opencv_imgproc400.lib
+opencv_ml400.lib
+opencv_objdetect400.lib
+opencv_photo400.lib
+opencv_shape400.lib
+opencv_stitching400.lib
+opencv_superres400.lib
+opencv_video400.lib
+opencv_videoio400.lib
+opencv_videostab400.lib
+              19 File(s)      5ÿ832ÿ920 bytes
+               2 Dir(s)  100ÿ013ÿ735ÿ936 bytes free
