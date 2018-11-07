@@ -171,6 +171,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Packages\tensorflow-lite.1.11.0.nupkg" />
+    <Content Include="Packages\opencv.4.0.0.nupkg" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
