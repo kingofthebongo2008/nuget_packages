@@ -285,6 +285,18 @@ public:
         const std::vector<int> &numberList, float dMax=5.85f, float dMin=8.2f,
         const std::vector<int>& indexChange=std::vector<int>());
     CV_WRAP virtual String getDefaultName() const CV_OVERRIDE;
+
+    /** @brief Set detection threshold.
+    @param threshold AGAST detection threshold score.
+    */
+    CV_WRAP virtual void setThreshold(int threshold) { CV_UNUSED(threshold); return; };
+    CV_WRAP virtual int getThreshold() const { return -1; };
+
+    /** @brief Set detection octaves.
+    @param octaves detection octaves. Use 0 to do single scale.
+    */
+    CV_WRAP virtual void setOctaves(int octaves) { CV_UNUSED(octaves); return; };
+    CV_WRAP virtual int getOctaves() const { return -1; };
 };
 
 /** @brief Class implementing the ORB (*oriented BRIEF*) keypoint detector and descriptor extractor
@@ -1199,7 +1211,7 @@ enum struct DrawMatchesFlags
   DRAW_RICH_KEYPOINTS = 4 //!< For each keypoint the circle around keypoint with keypoint size and
                           //!< orientation will be drawn.
 };
-CV_ENUM_FLAGS(DrawMatchesFlags);
+CV_ENUM_FLAGS(DrawMatchesFlags)
 
 /** @brief Draws keypoints.
 

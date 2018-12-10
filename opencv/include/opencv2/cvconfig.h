@@ -25,14 +25,8 @@
 /* AVFoundation video libraries */
 /* #undef HAVE_AVFOUNDATION */
 
-/* V4L capturing support */
-/* #undef HAVE_CAMV4L */
-
 /* V4L2 capturing support */
 /* #undef HAVE_CAMV4L2 */
-
-/* Carbon windowing environment */
-/* #undef HAVE_CARBON */
 
 /* AMD's Basic Linear Algebra Subprograms Library*/
 /* #undef HAVE_CLAMDBLAS */
@@ -69,13 +63,13 @@
 #define HAVE_D3D9
 
 /* DirectShow Video Capture library */
-/* #undef HAVE_DSHOW */
+#define HAVE_DSHOW
 
 /* Eigen Matrix & Linear Algebra Library */
 /* #undef HAVE_EIGEN */
 
 /* FFMpeg video library */
-/* #undef HAVE_FFMPEG */
+#define HAVE_FFMPEG
 
 /* Geospatial Data Abstraction Library */
 /* #undef HAVE_GDAL */
@@ -96,7 +90,7 @@
 /* #undef HAVE_VULKAN */
 
 /* Define to 1 if you have the <inttypes.h> header file. */
-/* #undef HAVE_INTTYPES_H */
+#define HAVE_INTTYPES_H 1
 
 /* Intel Perceptual Computing SDK library */
 /* #undef HAVE_INTELPERC */
@@ -119,11 +113,8 @@
 /* GDCM DICOM codec */
 /* #undef HAVE_GDCM */
 
-/* V4L/V4L2 capturing support via libv4l */
-/* #undef HAVE_LIBV4L */
-
 /* Microsoft Media Foundation Capture library */
-/* #undef HAVE_MSMF */
+#define HAVE_MSMF
 
 /* NVIDIA Video Decoding API*/
 /* #undef HAVE_NVCUVID */
@@ -137,7 +128,7 @@
 /* #undef HAVE_OPENCL_SVM */
 
 /* OpenEXR codec */
-/* #undef HAVE_OPENEXR */
+#define HAVE_OPENEXR
 
 /* OpenGL support*/
 /* #undef HAVE_OPENGL */
@@ -166,12 +157,6 @@
 /* Qt OpenGL support */
 /* #undef HAVE_QT_OPENGL */
 
-/* QuickTime video libraries */
-/* #undef HAVE_QUICKTIME */
-
-/* QTKit video libraries */
-/* #undef HAVE_QTKIT */
-
 /* Intel Threading Building Blocks */
 /* #undef HAVE_TBB */
 
@@ -179,13 +164,7 @@
 /* #undef HAVE_HPX */
 
 /* TIFF codec */
-/* #undef HAVE_TIFF */
-
-/* Unicap video capture library */
-/* #undef HAVE_UNICAP */
-
-/* Video for Windows support */
-/* #undef HAVE_VFW */
+#define HAVE_TIFF
 
 /* V4L2 capturing support in videoio.h */
 /* #undef HAVE_VIDEOIO */
@@ -226,8 +205,6 @@
 
 #if defined(HAVE_XINE)         || \
     defined(HAVE_GSTREAMER)    || \
-    defined(HAVE_QUICKTIME)    || \
-    defined(HAVE_QTKIT)        || \
     defined(HAVE_AVFOUNDATION) || \
     /*defined(HAVE_OPENNI)     || too specialized */ \
     defined(HAVE_FFMPEG)       || \
@@ -237,8 +214,6 @@
 
 #if /*defined(HAVE_XINE)       || */\
     defined(HAVE_GSTREAMER)    || \
-    defined(HAVE_QUICKTIME)    || \
-    defined(HAVE_QTKIT)        || \
     defined(HAVE_AVFOUNDATION) || \
     defined(HAVE_FFMPEG)       || \
     defined(HAVE_MSMF)
@@ -249,6 +224,6 @@
 #define OPENCV_TRACE
 
 /* Library QR-code decoding */
-/* #undef HAVE_QUIRC */
+#define HAVE_QUIRC
 
 #endif // OPENCV_CVCONFIG_H_INCLUDED

@@ -152,20 +152,6 @@ namespace cv { namespace debug_build_guard { } using namespace debug_build_guard
 
 #define CV_UNUSED(name) (void)name
 
-#if defined __GNUC__ && !defined __EXCEPTIONS
-#define CV_TRY
-#define CV_CATCH(A, B) for (A B; false; )
-#define CV_CATCH_ALL if (false)
-#define CV_THROW(A) abort()
-#define CV_RETHROW() abort()
-#else
-#define CV_TRY try
-#define CV_CATCH(A, B) catch(const A & B)
-#define CV_CATCH_ALL catch(...)
-#define CV_THROW(A) throw A
-#define CV_RETHROW() throw
-#endif
-
 //! @endcond
 
 // undef problematic defines sometimes defined by system headers (windows.h in particular)
@@ -240,9 +226,10 @@ namespace cv { namespace debug_build_guard { } using namespace debug_build_guard
 #define CV_CPU_AVX_512VBMI      20
 #define CV_CPU_AVX_512VL        21
 
-#define CV_CPU_NEON   100
+#define CV_CPU_NEON             100
 
-#define CV_CPU_VSX 200
+#define CV_CPU_VSX              200
+#define CV_CPU_VSX3             201
 
 // CPU features groups
 #define CV_CPU_AVX512_SKX       256
@@ -280,6 +267,7 @@ enum CpuFeatures {
     CPU_NEON            = 100,
 
     CPU_VSX             = 200,
+    CPU_VSX3            = 201,
 
     CPU_AVX512_SKX      = 256, //!< Skylake-X with AVX-512F/CD/BW/DQ/VL
 
@@ -363,6 +351,15 @@ Cv64suf;
 #  endif
 #endif
 
+#ifndef CV_DEPRECATED_EXTERNAL
+#  if defined(__OPENCV_BUILD)
+#    define CV_DEPRECATED_EXTERNAL /* nothing */
+#  else
+#    define CV_DEPRECATED_EXTERNAL CV_DEPRECATED
+#  endif
+#endif
+
+
 #ifndef CV_EXTERN_C
 #  ifdef __cplusplus
 #    define CV_EXTERN_C extern "C"
@@ -425,7 +422,7 @@ as well as exposing the C++11 enum class members for backwards compatibility
 
 @code
     // Provides operators required for flag enums
-    CV_ENUM_FLAGS(AccessFlag);
+    CV_ENUM_FLAGS(AccessFlag)
 
     // Exposes the listed members of the enum class AccessFlag to the current namespace
     CV_ENUM_CLASS_EXPOSE(AccessFlag, ACCESS_READ [, ACCESS_WRITE [, ...] ]);
@@ -539,18 +536,18 @@ static inline EnumType& operator^=(EnumType& _this, const Arg1Type& val)        
 __CV_EXPAND(__CV_CAT(__CV_ENUM_CLASS_EXPOSE_, __CV_VA_NUM_ARGS(__VA_ARGS__))(EnumType, __VA_ARGS__)); \
 
 #define CV_ENUM_FLAGS(EnumType)                                                                       \
-__CV_ENUM_FLAGS_LOGICAL_NOT      (EnumType);                                                          \
-__CV_ENUM_FLAGS_LOGICAL_EQ       (EnumType, int);                                                     \
-__CV_ENUM_FLAGS_LOGICAL_NOT_EQ   (EnumType, int);                                                     \
+__CV_ENUM_FLAGS_LOGICAL_NOT      (EnumType)                                                           \
+__CV_ENUM_FLAGS_LOGICAL_EQ       (EnumType, int)                                                      \
+__CV_ENUM_FLAGS_LOGICAL_NOT_EQ   (EnumType, int)                                                      \
                                                                                                       \
-__CV_ENUM_FLAGS_BITWISE_NOT      (EnumType);                                                          \
-__CV_ENUM_FLAGS_BITWISE_OR       (EnumType, EnumType, EnumType);                                      \
-__CV_ENUM_FLAGS_BITWISE_AND      (EnumType, EnumType, EnumType);                                      \
-__CV_ENUM_FLAGS_BITWISE_XOR      (EnumType, EnumType, EnumType);                                      \
+__CV_ENUM_FLAGS_BITWISE_NOT      (EnumType)                                                           \
+__CV_ENUM_FLAGS_BITWISE_OR       (EnumType, EnumType, EnumType)                                       \
+__CV_ENUM_FLAGS_BITWISE_AND      (EnumType, EnumType, EnumType)                                       \
+__CV_ENUM_FLAGS_BITWISE_XOR      (EnumType, EnumType, EnumType)                                       \
                                                                                                       \
-__CV_ENUM_FLAGS_BITWISE_OR_EQ    (EnumType, EnumType);                                                \
-__CV_ENUM_FLAGS_BITWISE_AND_EQ   (EnumType, EnumType);                                                \
-__CV_ENUM_FLAGS_BITWISE_XOR_EQ   (EnumType, EnumType);                                                \
+__CV_ENUM_FLAGS_BITWISE_OR_EQ    (EnumType, EnumType)                                                 \
+__CV_ENUM_FLAGS_BITWISE_AND_EQ   (EnumType, EnumType)                                                 \
+__CV_ENUM_FLAGS_BITWISE_XOR_EQ   (EnumType, EnumType)                                                 \
 
 /****************************************************************************************\
 *                                    static analysys                                     *
