@@ -5,5 +5,10 @@
       <Link>%(Filename)%(Extension)</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <PackagingOutputs Include="$(MSBuildThisFileDirectory)..\bin\win-x64\*.dll">
+        <OutputGroup>lzham</OutputGroup>
+        <ProjectName>$(ProjectName)</ProjectName>
+        <TargetPath>%(Filename)%(Extension)</TargetPath>
+    </PackagingOutputs>
   </ItemGroup>
 </Project>
