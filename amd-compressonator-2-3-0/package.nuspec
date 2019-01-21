@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>amd-compressonator-2-3-0</id>
-    <version>2.3.0</version>
+    <version>2.3.3</version>
     <title>Autodesk FBX SDK</title>
     <authors>Stefan Dyulgerov</authors>
     <owners>kingofthebongo2009</owners>
@@ -11,6 +11,12 @@
     <iconUrl>http://www.gravatar.com/avatar/df362936893270e6a1b53807fa90e8fa</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Allows Native C++ Applications to use precompiled amd compressonator</description>
-    <tags>fbx,3d,directx,opengl,vulkan</tags>
+    <tags>native, fbx,3d,directx,opengl,vulkan</tags>
   </metadata>
+  <files>
+    <file src = "include\**"    target = "build/native/include" />
+    <file src = "lib\**"        target = "lib" />
+    <file src = "build\amd-compressonator-2-3-0.props"     target = "build/native" />
+    <file src = "build\amd-compressonator-2-3-0.targets"   target = "build/native" />
+  </files>
 </package>
