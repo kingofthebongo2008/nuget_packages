@@ -1,4 +1,5 @@
-dotnet nuget push -s http://underworld2017.ddns.net:5555/v3/index.json -k NUGET-SERVER-API-KEY amd-compressonator-2-3-0.2.3.0.nupkg
+dotnet nuget push -s http://underworld2017.ddns.net:5555/v3/index.json -k NUGET-SERVER-API-KEY amd-compressonator-2-3-0.2.3.1.nupkg
+dotnet nuget push -s http://underworld2017.ddns.net:5555/v3/index.json -k NUGET-SERVER-API-KEY assimp.4.1.0.nupkg
 dotnet nuget push -s http://underworld2017.ddns.net:5555/v3/index.json -k NUGET-SERVER-API-KEY assimp-3-3-1-dll.3.3.1.nupkg
 dotnet nuget push -s http://underworld2017.ddns.net:5555/v3/index.json -k NUGET-SERVER-API-KEY fbxsdk-2018-1-1-dll.2018.1.1.nupkg
 dotnet nuget push -s http://underworld2017.ddns.net:5555/v3/index.json -k NUGET-SERVER-API-KEY lzham-uwp-win64.1.0.0.nupkg
