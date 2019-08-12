@@ -3,7 +3,7 @@
   <ItemDefinitionGroup>
     <Link>
       <AdditionalLibraryDirectories>$(MSBuildThisFileDirectory)\lib\win-x64\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libtensorflowlite_c.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libtensorflowlite_c.lib;libtensorflowlite_gpu_g.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup>
