@@ -11,11 +11,11 @@ rem dotnet nuget push -s http://underworld2017.ddns.net:5555/v3/index.json -k NU
 rem dotnet nuget push -s http://underworld2017.ddns.net:5555/v3/index.json -k NUGET-SERVER-API-KEY nvidia-cuda-90-rand.9.0.0.nupkg
 rem dotnet nuget push -s http://underworld2017.ddns.net:5555/v3/index.json -k NUGET-SERVER-API-KEY nvidia-cuda-90-solver.9.0.0.nupkg
 rem dotnet nuget push -s http://underworld2017.ddns.net:5555/v3/index.json -k NUGET-SERVER-API-KEY nvidia-cuda-90-sparse.9.0.0.nupkg
-dotnet nuget push -s http://underworld2017.ddns.net:5555/v3/index.json -k NUGET-SERVER-API-KEY opencv.4.0.2.nupkg
+rem dotnet nuget push -s http://underworld2017.ddns.net:5555/v3/index.json -k NUGET-SERVER-API-KEY opencv.4.0.2.nupkg
 rem dotnet nuget push -s http://underworld2017.ddns.net:5555/v3/index.json -k NUGET-SERVER-API-KEY tensorflow-gpu.1.10.0.nupkg
 rem dotnet nuget push -s http://underworld2017.ddns.net:5555/v3/index.json -k NUGET-SERVER-API-KEY tensorflow-lite.2.0.0.3.nupkg
-dotnet nuget push -s http://underworld2017.ddns.net:5555/v3/index.json -k NUGET-SERVER-API-KEY khronos-khr.1.0.4.nupkg
-dotnet nuget push -s http://underworld2017.ddns.net:5555/v3/index.json -k NUGET-SERVER-API-KEY khronos-angle-egl.1.0.0.3.nupkg
-dotnet nuget push -s http://underworld2017.ddns.net:5555/v3/index.json -k NUGET-SERVER-API-KEY khronos-angle-gles.1.0.0.4.nupkg
-dotnet nuget push -s http://underworld2017.ddns.net:5555/v3/index.json -k NUGET-SERVER-API-KEY tensorflow-lite.2.0.0.7.nupkg
+rem dotnet nuget push -s http://underworld2017.ddns.net:5555/v3/index.json -k NUGET-SERVER-API-KEY khronos-khr.1.0.4.nupkg
+rem dotnet nuget push -s http://underworld2017.ddns.net:5555/v3/index.json -k NUGET-SERVER-API-KEY khronos-angle-egl.1.0.0.4.nupkg
+rem dotnet nuget push -s http://underworld2017.ddns.net:5555/v3/index.json -k NUGET-SERVER-API-KEY khronos-angle-gles.1.0.0.5.nupkg
+dotnet nuget push -s http://underworld2017.ddns.net:5555/v3/index.json -k NUGET-SERVER-API-KEY tensorflow-lite.2.0.0.8.nupkg
               

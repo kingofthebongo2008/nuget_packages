@@ -2,6 +2,7 @@
 *.lib
 *.exe
 *.nupkg
+*.pdb
 
 
 
