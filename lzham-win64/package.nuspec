@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>lzham-win64</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>Lzham compression Library</title>
     <authors>Stefan Dyulgerov</authors>
     <owners>kingofthebongo2009</owners>
