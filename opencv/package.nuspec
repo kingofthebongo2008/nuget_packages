@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>opencv</id>
-    <version>4.0.2</version>
+    <version>4.0.3</version>
     <title>OpenCV for Windows X64</title>
     <authors>Stefan Dyulgerov</authors>
     <owners>kingofthebongo2009</owners>
